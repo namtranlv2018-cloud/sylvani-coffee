@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3b2618">
+  <meta name="description" content="Menu Sylvani Coffee – cà phê phin, trà và nước ép tươi.">
+  <title>Sylvani Coffee – Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6ede1;
+      --paper: #fbf5ec;
+      --wood-dark: #3b2618;
+      --wood: #6b4429;
+      --wood-light: #a87b51;
+      --cream: #f3e3c7;
+      --text: #2e1f15;
+      --muted: #7a6150;
+      --line: #dcc6a8;
+      --accent: #b5652b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ---------- Header ---------- */
+    .hero {
+      position: relative;
+      color: var(--cream);
+      text-align: center;
+      padding: 56px 20px 72px;
+      background:
+        repeating-linear-gradient(92deg,
+          rgba(255,255,255,0.025) 0 2px,
+          transparent 2px 9px,
+          rgba(0,0,0,0.05) 9px 11px,
+          transparent 11px 23px),
+        linear-gradient(160deg, #4a2f1d 0%, #3b2618 55%, #2a1a10 100%);
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 0; right: 0; bottom: -1px;
+      height: 28px;
+      background: var(--bg);
+      border-radius: 28px 28px 0 0;
+    }
+    .logo {
+      width: 72px; height: 72px;
+      margin: 0 auto 16px;
+      color: var(--cream);
+    }
+    .hero h1 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(2.2rem, 9vw, 3.4rem);
+      letter-spacing: 0.02em;
+      line-height: 1.1;
+    }
+    .hero .tagline {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--wood-light);
+    }
+    .hero .intro {
+      max-width: 30em;
+      margin: 18px auto 0;
+      font-size: 0.95rem;
+      color: #e4cfae;
+    }
+
+    /* ---------- Category nav ---------- */
+    .tabs {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      padding: 12px 16px;
+      background: rgba(246, 237, 225, 0.94);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .tabs a {
+      flex: 1 1 0;
+      max-width: 140px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--wood);
+      padding: 9px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      transition: background .2s, color .2s;
+    }
+    .tabs a:hover,
+    .tabs a:focus-visible { background: var(--wood); color: var(--cream); outline: none; }
+
+    /* ---------- Menu ---------- */
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 8px 16px 40px;
+    }
+    section {
+      scroll-margin-top: 72px;
+      margin-top: 28px;
+    }
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .section-head .icon {
+      flex: none;
+      width: 44px; height: 44px;
+      display: grid; place-items: center;
+      border-radius: 50%;
+      background: var(--wood);
+      color: var(--cream);
+    }
+    .section-head .icon svg { width: 24px; height: 24px; }
+    .section-head h2 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.6rem;
+      color: var(--wood-dark);
+    }
+    .section-note {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin: 2px 0 10px 56px;
+    }
+
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 4px 18px;
+      box-shadow: 0 6px 18px -12px rgba(59, 38, 24, 0.45);
+    }
+    .item {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 14px 0;
+      border-bottom: 1px dashed var(--line);
+    }
+    .item:last-child { border-bottom: 0; }
+    .item .info { flex: 1 1 auto; min-width: 0; }
+    .item .name {
+      font-weight: 600;
+      font-size: 1.02rem;
+      color: var(--text);
+    }
+    .item .desc {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .item .price {
+      flex: none;
+      font-weight: 600;
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .badge {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 1px 8px;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      background: var(--cream);
+      color: var(--wood);
+      vertical-align: 2px;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      text-align: center;
+      padding: 32px 20px 40px;
+      background: var(--wood-dark);
+      color: #d9c2a0;
+      font-size: 0.88rem;
+    }
+    footer strong {
+      display: block;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.3rem;
+      color: var(--cream);
+      margin-bottom: 6px;
+    }
+    footer p + p { margin-top: 4px; }
+    footer .small { margin-top: 14px; font-size: 0.78rem; color: var(--wood-light); }
+
+    @media (min-width: 700px) {
+      .hero { padding: 72px 20px 88px; }
+      .card { padding: 6px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <svg class="logo" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <!-- Phin cà phê -->
+      <path d="M16 14h32"/>
+      <path d="M20 14l3 16h18l3-16"/>
+      <path d="M12 32h40"/>
+      <path d="M27 18v8M32 18v8M37 18v8" opacity=".55"/>
+      <path d="M32 33v5" opacity=".7"/>
+      <path d="M22 40h20l-2 14H24z"/>
+      <path d="M42 43h3a3 3 0 0 1 0 6h-4"/>
+      <path d="M26 10c0-2 2-2 2-4M32 10c0-2 2-2 2-4M38 10c0-2 2-2 2-4" opacity=".6"/>
+    </svg>
+    <h1>Sylvani Coffee</h1>
+    <p class="tagline">Cà phê phin · Trà · Nước ép</p>
+    <p class="intro">Từng giọt cà phê được nhỏ chậm qua phin nhôm truyền thống, giữ trọn vị đậm đà và hương thơm của hạt rang mộc.</p>
+  </header>
+
+  <nav class="tabs" aria-label="Danh mục menu">
+    <a href="#ca-phe">Cà phê</a>
+    <a href="#tra">Trà</a>
+    <a href="#nuoc-ep">Nước ép</a>
+  </nav>
+
+  <main>
+    <!-- CÀ PHÊ -->
+    <section id="ca-phe">
+      <div class="section-head">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 3c0 1.5 1 1.5 1 3M12 3c0 1.5 1 1.5 1 3"/></svg>
+        </span>
+        <h2>Cà phê phin</h2>
+      </div>
+      <p class="section-note">Pha phin tại chỗ · Nóng hoặc đá</p>
+      <div class="card">
+        <div class="item">
+          <div class="info"><span class="name">Cà phê đen</span><span class="desc">Robusta rang mộc, đậm và đắng dịu</span></div>
+          <span class="price">25.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Cà phê sữa</span><span class="badge">Bán chạy</span><span class="desc">Phin đậm hòa cùng sữa đặc béo ngọt</span></div>
+          <span class="price">29.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Bạc xỉu</span><span class="desc">Nhiều sữa, ít cà phê, thơm nhẹ</span></div>
+          <span class="price">32.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Cà phê muối</span><span class="desc">Lớp kem muối mằn mặn trên nền phin sữa</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Cà phê trứng</span><span class="desc">Kem trứng đánh bông, béo mịn</span></div>
+          <span class="price">39.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Cà phê cốt dừa</span><span class="desc">Phin đen xay cùng cốt dừa đá mát lạnh</span></div>
+          <span class="price">42.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Phin Arabica Cầu Đất</span><span class="badge">Đặc biệt</span><span class="desc">Hương trái cây, chua thanh, hậu ngọt</span></div>
+          <span class="price">45.000đ</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRÀ -->
+    <section id="tra">
+      <div class="section-head">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20c-1-6 2-13 14-15-1 9-6 15-14 15z"/><path d="M5 20c3-5 6-8 10-10"/></svg>
+        </span>
+        <h2>Trà</h2>
+      </div>
+      <p class="section-note">Trà ủ lạnh mỗi sáng</p>
+      <div class="card">
+        <div class="item">
+          <div class="info"><span class="name">Trà đá</span><span class="desc">Trà xanh Thái Nguyên</span></div>
+          <span class="price">10.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Trà nóng ấm</span><span class="desc">Ấm trà sen hoặc trà lài, 2–3 người</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Trà đào cam sả</span><span class="badge">Bán chạy</span><span class="desc">Đào miếng, cam tươi, sả thơm</span></div>
+          <span class="price">39.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Trà vải</span><span class="desc">Vải thiều ngâm, trà đen thanh mát</span></div>
+          <span class="price">39.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Trà tắc mật ong</span><span class="desc">Tắc tươi, mật ong rừng</span></div>
+          <span class="price">32.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Trà sữa nhà làm</span><span class="desc">Trà đen pha sữa tươi, trân châu đường đen</span></div>
+          <span class="price">42.000đ</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NƯỚC ÉP -->
+    <section id="nuoc-ep">
+      <div class="section-head">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1.5 13h-9z"/><path d="M13 8l2-5h3"/><path d="M7 13h10"/></svg>
+        </span>
+        <h2>Nước ép</h2>
+      </div>
+      <p class="section-note">Ép tươi khi gọi · Không thêm đường nếu bạn muốn</p>
+      <div class="card">
+        <div class="item">
+          <div class="info"><span class="name">Cam vắt</span><span class="desc">Cam sành nguyên chất</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Dưa hấu</span><span class="desc">Mát lạnh, ngọt tự nhiên</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Thơm (dứa)</span><span class="desc">Chua ngọt, giàu vitamin C</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Cà rốt</span><span class="desc">Cà rốt Đà Lạt ép tươi</span></div>
+          <span class="price">35.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Ổi</span><span class="desc">Ổi ruột hồng thơm dịu</span></div>
+          <span class="price">38.000đ</span>
+        </div>
+        <div class="item">
+          <div class="info"><span class="name">Táo – Cần tây</span><span class="badge">Healthy</span><span class="desc">Táo xanh, cần tây, chút gừng</span></div>
+          <span class="price">45.000đ</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Sylvani Coffee</strong>
+    <p>Mở cửa: 6:30 – 22:00 mỗi ngày</p>
+    <p>Wi-Fi miễn phí · Có chỗ gửi xe</p>
+    <p class="small">Giá đã bao gồm VAT · Thêm shot phin +10.000đ</p>
+  </footer>
+
+</body>
+</html>
