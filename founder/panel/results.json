@@ -1,0 +1,158 @@
+{
+ "business": "XG_Studio – đèn ngủ gỗ nhiều lớp cá nhân hoá theo thú cưng (bản chó Mực, bản mèo Mướp)",
+ "seed": 573206,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 2,
+ "passes": 18,
+ "buy_rate": 0.1,
+ "by_segment": [
+  [
+   "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+   3,
+   0.3333333333333333
+  ],
+  [
+   "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+   5,
+   0.2
+  ],
+  [
+   "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+   8,
+   0.0
+  ],
+  [
+   "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+   4,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Yêu đồ decor/handmade",
+   2,
+   0.5
+  ],
+  [
+   "Mua theo cảm hứng trên TikTok/Shopee",
+   4,
+   0.25
+  ],
+  [
+   "Thành viên hội nhóm thú cưng",
+   3,
+   0.0
+  ],
+  [
+   "Xem kỹ đánh giá và ảnh thật",
+   4,
+   0.0
+  ],
+  [
+   "Săn mã giảm giá",
+   3,
+   0.0
+  ],
+  [
+   "Tối giản, ngại thêm đồ",
+   2,
+   0.0
+  ],
+  [
+   "Người mua quà theo dịp",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under $149,413,000",
+   6,
+   0.16666666666666666
+  ],
+  [
+   "$201,388,000 and up",
+   7,
+   0.14285714285714285
+  ],
+  [
+   "$149,413,000 to $201,388,000",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   15,
+   [
+    "Ý tưởng dễ thương, 250k cũng vừa túi để làm quà cho đứa bạn thân nuôi mèo, nhưng shop mới chỉ có ảnh 3D, chưa ai trong group mình từng mua nên mình không dám cọc. Thêm nữa chờ 3 tuần thì có khi lỡ dịp tặng quà.",
+    "Ý tưởng dễ thương thật, nhưng shop mới, chưa có feedback, chưa có ảnh hàng thật mà đã bắt cọc rồi chờ 3 tuần thì mình không đặt đâu. Mình sẽ lưu lại, đợi có người mua trước rồi xem ảnh khách chụp."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ],
+  [
+   "timing",
+   2,
+   [
+    "Ý tưởng dễ thương và 250k với mình rẻ, nhưng mình đang cần quà cho bạn thân sắp tới, chờ 3 tuần lại còn cọc trước thì không kịp. Mình hay mua vì thấy video đẹp, mà ở đây chỉ có ảnh 3D, chưa thấy đèn thật sáng lên trông thế nào.",
+    "250 nghìn thì với mình không đáng kể, nhưng mình chỉ mua đồ khắc tên kiểu này khi có dịp, mà tuần này chẳng có sinh nhật hay kỷ niệm gì cả. Phòng cũng chật rồi, thêm một cái đèn treo tường nữa mình chưa thấy cần."
+   ],
+   [
+    "P009",
+    "P017"
+   ]
+  ],
+  [
+   "price",
+   1,
+   [
+    "Đèn khắc tên bé nhà mình thì dễ thương thật, nhưng 250k cho một cái đèn ngủ gỗ là hơi chát với mình, lại không có mã giảm hay freeship gì. Mình sẽ lưu lại, chờ sale 12.12 hoặc có voucher rồi tính."
+   ],
+   [
+    "P014"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "need",
+   2,
+   [
+    "Bé nhà mình vừa mất, thấy đèn khắc tên con với hình trăng đêm con về nhà là mình muốn có ngay, 250k thì mình bấm được, cọc có 50k nên đặt thử luôn. Treo tường được nên cũng không chiếm chỗ trong phòng vốn đã chật.",
+    "Mình đang cần quà cho người yêu nuôi mèo, mà đèn gỗ khắc tên con mèo với đúng hình trăng đêm nó về nhà thì đúng gu mình, 250k lại rẻ so với một món quà có ý nghĩa. Cọc 50k thì mình dám thử dù còn hơi lo."
+   ],
+   [
+    "P004",
+    "P015"
+   ]
+  ]
+ ],
+ "flip": [
+  "Thấy vài người trong group thú cưng đăng ảnh/video đèn thật đã nhận, sáng lên đẹp đúng như mẫu, và shop cam kết giao kịp ngày tặng.",
+  "Có ảnh và video hàng thật do khách chụp, thấy rõ hình con vật trên đèn giống thú cưng ngoài đời, cộng thêm vài đánh giá thật trên Shopee hoặc TikTok Shop.",
+  "Có video hàng thật lúc đèn sáng và feedback của khách đã nhận, cộng thêm mã giảm giá hoặc freeship dịp 12.12.",
+  "Video và ảnh hàng thật do khách chụp, ít nhất vài chục feedback có ảnh trên TikTok Shop hoặc Facebook, nhất là từ người nuôi chó mèo mình theo dõi trên Instagram.",
+  "Một video TikTok quay đèn thật đang sáng trong phòng, kèm đánh giá của người đã nhận hàng, nhất là người cũng vừa mất thú cưng nói họ thấy ấm lòng chứ không buồn.",
+  "Một video TikTok quay đèn thật trong phòng tối, tự sáng lên khi người về, có tên bé và feedback của người đã nhận hàng.",
+  "Ảnh và video hàng thật đang sáng trong phòng của một khách đã nhận, nhìn vui chứ không buồn, và cam kết giao kịp trước Tết để mình làm quà.",
+  "Một video TikTok quay đèn thật đang sáng lên khi có người đi qua, kèm thời gian giao dưới 1 tuần.",
+  "Thấy ảnh/video hàng thật do người trong group thú cưng đăng, và có tuỳ chọn chỉnh màu lông hoặc dáng cho giống con của mình.",
+  "Video/ảnh thật của đèn khi bật sáng trong phòng tối, kèm vài feedback của khách đã nhận hàng.",
+  "Có ảnh, video hàng thật và vài đánh giá của người mua trước, cộng thêm mã giảm giá hoặc freeship dịp 12.12.",
+  "Có ảnh và video khách thật chụp đèn đã làm xong (nhất là của người cũng làm để tưởng nhớ thú cưng đã mất), cùng vài đánh giá thật.",
+  "Có ảnh/video hàng thật kèm feedback của người đã mua, cộng thêm mã giảm hoặc freeship để giá về tầm 180-200k.",
+  "Có ảnh và video hàng thật do khách chụp, vài feedback thật, và bán qua sàn có bảo vệ người mua thay vì cọc qua Facebook.",
+  "Có ảnh và video hàng thật đang sáng ban đêm, và nếu gần sinh nhật con mèo hoặc gần Tết thì mình sẽ đặt làm quà.",
+  "Một video TikTok quay đèn thật đang sáng lên khi có người về, kèm vài review của khách đã nhận hàng, và không bắt cọc (hoặc trả khi nhận hàng).",
+  "Thấy ảnh hoặc video hàng thật do người trong group thú cưng của mình đăng, kiểu feedback thật chứ không phải ảnh shop tự chụp.",
+  "Video hàng thật đang sáng vào ban đêm, kèm đánh giá của vài người đã nhận đèn, thì mình sẽ cân nhắc đặt làm quà cho người yêu."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 20
+}

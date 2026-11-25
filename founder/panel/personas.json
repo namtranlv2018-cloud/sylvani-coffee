@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Selin",
+  "age": 24,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 159374000,
+  "behaviour": "Thành viên hội nhóm thú cưng",
+  "behaviour_how": "Hay đăng ảnh con trong group Facebook, tin lời người cùng nhóm giới thiệu.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "bạn sắp có dịp tặng quà cho một người bạn thân"
+ },
+ {
+  "id": "P002",
+  "name": "Lena",
+  "age": 23,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 165089000,
+  "behaviour": "Xem kỹ đánh giá và ảnh thật",
+  "behaviour_how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp.",
+  "objection": "Hình con chó/mèo trên đèn có giống con của mình không?",
+  "habit": "bạn mua đồ cho thú cưng trên Shopee mỗi tháng"
+ },
+ {
+  "id": "P003",
+  "name": "Min",
+  "age": 32,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 89667000,
+  "behaviour": "Săn mã giảm giá",
+  "behaviour_how": "Chờ sale 11.11, 12.12, freeship mới chốt đơn.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "bạn hay đăng ảnh thú cưng lên Instagram"
+ },
+ {
+  "id": "P004",
+  "name": "Celine",
+  "age": 22,
+  "segment": "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 269340000,
+  "behaviour": "Mua theo cảm hứng trên TikTok/Shopee",
+  "behaviour_how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "con chó/mèo của bạn được nhận nuôi về nhà vài năm trước"
+ },
+ {
+  "id": "P005",
+  "name": "Leah",
+  "age": 36,
+  "segment": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 581812000,
+  "behaviour": "Xem kỹ đánh giá và ảnh thật",
+  "behaviour_how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp.",
+  "objection": "Shop mới, chưa có đánh giá nào",
+  "habit": "bạn hay đăng ảnh thú cưng lên Instagram"
+ },
+ {
+  "id": "P006",
+  "name": "Kai",
+  "age": 25,
+  "segment": "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 133304000,
+  "behaviour": "Tối giản, ngại thêm đồ",
+  "behaviour_how": "Phòng trọ nhỏ, chỉ mua thứ thật sự dùng.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "bạn lướt TikTok mỗi tối trước khi ngủ"
+ },
+ {
+  "id": "P007",
+  "name": "June",
+  "age": 22,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 129337000,
+  "behaviour": "Mua theo cảm hứng trên TikTok/Shopee",
+  "behaviour_how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "bạn ở phòng trọ hoặc căn hộ nhỏ cùng thú cưng"
+ },
+ {
+  "id": "P008",
+  "name": "Emma",
+  "age": 35,
+  "segment": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 424712000,
+  "behaviour": "Người mua quà theo dịp",
+  "behaviour_how": "Chỉ mua đồ cá nhân hoá khi có sinh nhật, kỷ niệm, Tết.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "bạn ở phòng trọ hoặc căn hộ nhỏ cùng thú cưng"
+ },
+ {
+  "id": "P009",
+  "name": "Aisha",
+  "age": 24,
+  "segment": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 294425000,
+  "behaviour": "Mua theo cảm hứng trên TikTok/Shopee",
+  "behaviour_how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu.",
+  "objection": "Đặt cá nhân hoá phải chờ lâu, còn phải cọc trước",
+  "habit": "bạn sắp có dịp tặng quà cho một người bạn thân"
+ },
+ {
+  "id": "P010",
+  "name": "Lucia",
+  "age": 24,
+  "segment": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 223352000,
+  "behaviour": "Thành viên hội nhóm thú cưng",
+  "behaviour_how": "Hay đăng ảnh con trong group Facebook, tin lời người cùng nhóm giới thiệu.",
+  "objection": "Hình con chó/mèo trên đèn có giống con của mình không?",
+  "habit": "con chó/mèo của bạn được nhận nuôi về nhà vài năm trước"
+ },
+ {
+  "id": "P011",
+  "name": "Clara",
+  "age": 24,
+  "segment": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 156178000,
+  "behaviour": "Yêu đồ decor/handmade",
+  "behaviour_how": "Thích đồ gỗ, đèn ngủ, góc phòng đẹp để chụp ảnh.",
+  "objection": "250k cho một cái đèn ngủ thì hơi đắt",
+  "habit": "con chó/mèo của bạn được nhận nuôi về nhà vài năm trước"
+ },
+ {
+  "id": "P012",
+  "name": "Malik",
+  "age": 29,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 164210000,
+  "behaviour": "Săn mã giảm giá",
+  "behaviour_how": "Chờ sale 11.11, 12.12, freeship mới chốt đơn.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "bạn hay đăng ảnh thú cưng lên Instagram"
+ },
+ {
+  "id": "P013",
+  "name": "Maya",
+  "age": 22,
+  "segment": "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 198455000,
+  "behaviour": "Xem kỹ đánh giá và ảnh thật",
+  "behaviour_how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "bạn mua đồ cho thú cưng trên Shopee mỗi tháng"
+ },
+ {
+  "id": "P014",
+  "name": "Ana",
+  "age": 36,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 133926000,
+  "behaviour": "Săn mã giảm giá",
+  "behaviour_how": "Chờ sale 11.11, 12.12, freeship mới chốt đơn.",
+  "objection": "250k cho một cái đèn ngủ thì hơi đắt",
+  "habit": "bạn hay đăng ảnh thú cưng lên Instagram"
+ },
+ {
+  "id": "P015",
+  "name": "Levi",
+  "age": 35,
+  "segment": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 104387000,
+  "behaviour": "Yêu đồ decor/handmade",
+  "behaviour_how": "Thích đồ gỗ, đèn ngủ, góc phòng đẹp để chụp ảnh.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "con chó/mèo của bạn được nhận nuôi về nhà vài năm trước"
+ },
+ {
+  "id": "P016",
+  "name": "Nia",
+  "age": 23,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 124697000,
+  "behaviour": "Xem kỹ đánh giá và ảnh thật",
+  "behaviour_how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp.",
+  "objection": "Đặt cá nhân hoá phải chờ lâu, còn phải cọc trước",
+  "habit": "bạn mua đồ cho thú cưng trên Shopee mỗi tháng"
+ },
+ {
+  "id": "P017",
+  "name": "Ben",
+  "age": 22,
+  "segment": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 486315000,
+  "behaviour": "Người mua quà theo dịp",
+  "behaviour_how": "Chỉ mua đồ cá nhân hoá khi có sinh nhật, kỷ niệm, Tết.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "bạn ở phòng trọ hoặc căn hộ nhỏ cùng thú cưng"
+ },
+ {
+  "id": "P018",
+  "name": "Marco",
+  "age": 37,
+  "segment": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 150431000,
+  "behaviour": "Mua theo cảm hứng trên TikTok/Shopee",
+  "behaviour_how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu.",
+  "objection": "Đặt cá nhân hoá phải chờ lâu, còn phải cọc trước",
+  "habit": "bạn hay đăng ảnh thú cưng lên Instagram"
+ },
+ {
+  "id": "P019",
+  "name": "Yara",
+  "age": 29,
+  "segment": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 149413000,
+  "behaviour": "Thành viên hội nhóm thú cưng",
+  "behaviour_how": "Hay đăng ảnh con trong group Facebook, tin lời người cùng nhóm giới thiệu.",
+  "objection": "Phòng đã nhiều đồ, không biết để đâu",
+  "habit": "bạn ở phòng trọ hoặc căn hộ nhỏ cùng thú cưng"
+ },
+ {
+  "id": "P020",
+  "name": "Ivy",
+  "age": 24,
+  "segment": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+  "income": 201388000,
+  "behaviour": "Tối giản, ngại thêm đồ",
+  "behaviour_how": "Phòng trọ nhỏ, chỉ mua thứ thật sự dùng.",
+  "objection": "Đồ tưởng niệm nhìn vào thấy buồn",
+  "habit": "con chó/mèo của bạn được nhận nuôi về nhà vài năm trước"
+ }
+]

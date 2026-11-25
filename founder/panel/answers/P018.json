@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Mình hay mua theo hứng khi thấy video đẹp, nhưng ở đây chỉ có ảnh 3D, chưa có hàng thật, lại phải cọc trước rồi chờ 3 tuần. Giá 250k thì rẻ, mua làm quà được, nhưng mình không chuyển cọc cho một shop chưa có nổi một video sản phẩm thật.",
+  "objection": "Cọc 50k cho một món chỉ có hình 3D, chờ 3 tuần mới có, lỡ hàng thật xấu hơn ảnh hoặc shop im luôn thì sao. Mua quà mà phải chờ lâu vậy dễ trễ dịp.",
+  "would_change_my_mind": "Một video TikTok quay đèn thật đang sáng lên khi có người về, kèm vài review của khách đã nhận hàng, và không bắt cọc (hoặc trả khi nhận hàng).",
+  "price_too_cheap": 90000,
+  "price_cheap": 180000,
+  "price_expensive": 380000,
+  "price_too_expensive": 550000
+}

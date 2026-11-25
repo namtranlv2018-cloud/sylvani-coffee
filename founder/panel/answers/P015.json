@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Mình đang cần quà cho người yêu nuôi mèo, mà đèn gỗ khắc tên con mèo với đúng hình trăng đêm nó về nhà thì đúng gu mình, 250k lại rẻ so với một món quà có ý nghĩa. Cọc 50k thì mình dám thử dù còn hơi lo.",
+  "objection": "Chưa có ảnh hàng thật, chỉ có 3D, mình sợ gỗ cắt laser ra nhìn thô, đèn tối hoặc khắc không sắc như hình. Với lại phòng người ta cũng đã nhiều đồ, không chắc treo được ở đâu.",
+  "would_change_my_mind": "Nếu bản duyệt thiết kế trông xấu hoặc shop không trả lời rõ được việc hoàn cọc khi hàng thật không giống ảnh thì mình huỷ.",
+  "price_too_cheap": 100000,
+  "price_cheap": 180000,
+  "price_expensive": 350000,
+  "price_too_expensive": 500000
+}

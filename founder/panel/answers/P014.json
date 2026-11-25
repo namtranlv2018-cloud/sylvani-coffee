@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Đèn khắc tên bé nhà mình thì dễ thương thật, nhưng 250k cho một cái đèn ngủ gỗ là hơi chát với mình, lại không có mã giảm hay freeship gì. Mình sẽ lưu lại, chờ sale 12.12 hoặc có voucher rồi tính.",
+  "objection": "Giá 250k mà chỉ có ảnh 3D, chưa thấy hàng thật, lại phải cọc trước 50k rồi đợi 3 tuần. Lỡ gỗ cắt xấu hay khắc không giống thì mất tiền oan.",
+  "would_change_my_mind": "Có ảnh/video hàng thật kèm feedback của người đã mua, cộng thêm mã giảm hoặc freeship để giá về tầm 180-200k.",
+  "price_too_cheap": 80000,
+  "price_cheap": 150000,
+  "price_expensive": 220000,
+  "price_too_expensive": 320000
+}

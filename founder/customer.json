@@ -2,21 +2,80 @@
   "business": "XG_Studio – đèn ngủ gỗ nhiều lớp cá nhân hoá theo thú cưng (bản chó Mực, bản mèo Mướp)",
   "target": "Người nuôi chó/mèo ở các thành phố lớn Việt Nam, 20 đến 38 tuổi, mua online, coi thú cưng như người nhà",
   "where": "Việt Nam, mua online (Shopee, TikTok Shop, Facebook/Instagram)",
-  "age": [20, 38],
+  "age": [
+    20,
+    38
+  ],
   "segments": [
-    {"name": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập tháng, VND)", "share": 0.40, "income": [7000000, 15000000]},
-    {"name": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập tháng, VND)", "share": 0.25, "income": [8000000, 20000000]},
-    {"name": "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập tháng, VND)", "share": 0.15, "income": [8000000, 25000000]},
-    {"name": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập tháng, VND)", "share": 0.20, "income": [20000000, 50000000]}
+    {
+      "name": "Người trẻ đi làm, nuôi chó/mèo, mua cho mình (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+      "share": 0.4,
+      "income": [
+        84000000,
+        180000000
+      ]
+    },
+    {
+      "name": "Người mua quà tặng cho người thân/người yêu nuôi thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+      "share": 0.25,
+      "income": [
+        96000000,
+        240000000
+      ]
+    },
+    {
+      "name": "Chủ nuôi vừa mất thú cưng, muốn giữ kỷ niệm (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+      "share": 0.15,
+      "income": [
+        96000000,
+        300000000
+      ]
+    },
+    {
+      "name": "Chủ nuôi thu nhập cao, chi mạnh cho thú cưng (thu nhập năm tính bằng VND; ký hiệu $ bên dưới là VND, không phải đô la)",
+      "share": 0.2,
+      "income": [
+        240000000,
+        600000000
+      ]
+    }
   ],
   "behaviours": [
-    {"name": "Mua theo cảm hứng trên TikTok/Shopee", "share": 0.22, "how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu."},
-    {"name": "Xem kỹ đánh giá và ảnh thật", "share": 0.18, "how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp."},
-    {"name": "Săn mã giảm giá", "share": 0.15, "how": "Chờ sale 11.11, 12.12, freeship mới chốt đơn."},
-    {"name": "Thành viên hội nhóm thú cưng", "share": 0.15, "how": "Hay đăng ảnh con trong group Facebook, tin lời người cùng nhóm giới thiệu."},
-    {"name": "Người mua quà theo dịp", "share": 0.12, "how": "Chỉ mua đồ cá nhân hoá khi có sinh nhật, kỷ niệm, Tết."},
-    {"name": "Yêu đồ decor/handmade", "share": 0.10, "how": "Thích đồ gỗ, đèn ngủ, góc phòng đẹp để chụp ảnh."},
-    {"name": "Tối giản, ngại thêm đồ", "share": 0.08, "how": "Phòng trọ nhỏ, chỉ mua thứ thật sự dùng."}
+    {
+      "name": "Mua theo cảm hứng trên TikTok/Shopee",
+      "share": 0.22,
+      "how": "Thấy video đẹp là bấm mua, ít khi so sánh lâu."
+    },
+    {
+      "name": "Xem kỹ đánh giá và ảnh thật",
+      "share": 0.18,
+      "how": "Không mua shop mới nếu chưa có feedback và ảnh khách chụp."
+    },
+    {
+      "name": "Săn mã giảm giá",
+      "share": 0.15,
+      "how": "Chờ sale 11.11, 12.12, freeship mới chốt đơn."
+    },
+    {
+      "name": "Thành viên hội nhóm thú cưng",
+      "share": 0.15,
+      "how": "Hay đăng ảnh con trong group Facebook, tin lời người cùng nhóm giới thiệu."
+    },
+    {
+      "name": "Người mua quà theo dịp",
+      "share": 0.12,
+      "how": "Chỉ mua đồ cá nhân hoá khi có sinh nhật, kỷ niệm, Tết."
+    },
+    {
+      "name": "Yêu đồ decor/handmade",
+      "share": 0.1,
+      "how": "Thích đồ gỗ, đèn ngủ, góc phòng đẹp để chụp ảnh."
+    },
+    {
+      "name": "Tối giản, ngại thêm đồ",
+      "share": 0.08,
+      "how": "Phòng trọ nhỏ, chỉ mua thứ thật sự dùng."
+    }
   ],
   "objections": [
     "Chỉ thấy ảnh 3D, không biết hàng thật trông thế nào",
